@@ -1,6 +1,6 @@
 {
   "name": "@prt-ts/pdf-json-helpers",
-  "version": "1.0.1-r1",
+  "version": "1.0.4",
   "description": "This library provides the form like element layout for the pdfmake (pdf make libray) without writing very complex json document defination.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
