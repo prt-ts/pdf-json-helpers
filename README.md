@@ -1,4 +1,4 @@
-﻿# pdfMake Form Elments
+﻿# PDF JSON Helpers
 > This library provides the form like element layout for the pdfmake (pdf make libray) without writing very complex json document defination.
 
 Pdfmake is library for creating pdf file using javascript. This is a repository project to create html form style layout for PdfMake, that is 
