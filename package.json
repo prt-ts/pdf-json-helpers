@@ -1,6 +1,6 @@
 {
   "name": "@prt-ts/pdf-json-helpers",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "This library provides the form like element layout for the pdfmake (pdf make libray) without writing very complex json document defination.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,9 +21,16 @@
   "dependencies": {
     "html-to-pdfmake": "^2.4.16"
   },
+  "peerDependencies": {
+
+  },
   "devDependencies": {
     "@types/html-to-pdfmake": "^2.4.0",
     "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "GitHub",
+    "url": "https://github.com/prt-ts/pdf-json-helpers"
   },
   "publishConfig": {
     "access": "public"

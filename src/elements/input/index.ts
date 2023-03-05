@@ -10,7 +10,7 @@ function getTextInputNoLabel(value: string | undefined) {
                     body: [
                         [
                             {
-                                text: value,
+                                text: value ?? " ",
                             },
                         ],
                     ],
@@ -34,7 +34,7 @@ function getTextInput(label: string, value: string | undefined) {
                     body: [
                         [
                             {
-                                text: value,
+                                text: value ?? " ",
                             },
                         ],
                     ],
@@ -58,7 +58,7 @@ function getDateInput(label: string, value: Date | undefined) {
                     body: [
                         [
                             {
-                                text: value ? value.toLocaleDateString() : "",
+                                text: value ? value.toLocaleDateString() : " ",
                             },
                             {
                                 image: calendarButtonIcon,
@@ -86,7 +86,7 @@ function getSelectInput(label: string, value: String | undefined) {
                     body: [
                         [
                             {
-                                text: value,
+                                text: value ?? " ",
                             },
                             {
                                 image: dropdownButtonIcon,
@@ -120,7 +120,7 @@ function getCurrencyInput(
                         [
                             {
                                 text: setCurrencSymbolyAsPrefix
-                                    ? `${currencySymbol}${value}`
+                                    ? `${currencySymbol}${value ?? " "}`
                                     : `${value} ${currencySymbol}`,
                             },
                         ],
@@ -146,7 +146,7 @@ function getTextareaInput(label: string, value: string | undefined) {
                     body: [
                         [
                             {
-                                text: value,
+                                text: value ?? " ",
                             },
                         ],
                     ],
